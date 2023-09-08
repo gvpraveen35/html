@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:skyblue;
+}
+li
+{
+float:left;
+}
+li a
+{
+display:block;
+padding:8px;
+text-decoration:0;
+}
+li a:hover
+{
+background-color:rgb(0,0,0);
+color:white;
+}
+li a.active
+{
+background-color:red;
+color:white;
+}
+li a:hover:not(.active)
+color:white;
+{
+background-color:rgb(0,0,0);
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a class="active"href="#home">hame</a></li>
+<li><a href="#news">news</a></li>
+<li><a href="#contact">contact</a></li>
+<li style="float:right;"><a href="#about">about</a></li>
+</ul>
+</body>
+</html>
