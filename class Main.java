@@ -33,3 +33,5 @@ int a=0;int b=0;int c=0;
 String inp1=String.valueof(input1);
 String inp2=String.valueof(input2);
 String inp3=String.valueof(input3);
+system.out.println("no is prime number");
+if(a
