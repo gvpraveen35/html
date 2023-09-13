@@ -1,0 +1,50 @@
+<html>
+<head>
+<script>
+function add()
+{
+var num1,num2,sum;
+num1=parseInt(document.getElementById("txtFristNumber").value);
+num2=parseInt(document.getElementById("txtSecondNumber").value);
+sum=num1+num2;
+document.getElementById("txtAnswer").value=sum;
+}
+function sub()
+{
+var num1,num2,su;
+num1=parseInt(document.getElementById("txtFristNumber").value);
+num2=parseInt(document.getElementById("txtSecondNumber").value);
+su=num1-num2;
+document.getElementById("txtAnswer").value=su;
+}
+function mul()
+{
+var num1,num2,su;
+num1=parseInt(document.getElementById("txtFristNumber").value);
+num2=parseInt(document.getElementById("txtSecondNumber").value);
+su=num1*num2;
+document.getElementById("txtAnswer").value=su;
+}
+function div()
+{
+var num1,num2,su;
+num1=parseInt(document.getElementById("txtFristNumber").value);
+num2=parseInt(document.getElementById("txtSecondNumber").value);
+su=num1/num2;
+document.getElementById("txtAnswer").value=su;
+}
+</script>
+</head>
+<body bgcolor=yellow>
+<p>Frist Number:<input id="txtFristNumber"></p>
+<p>Frist Number:<input id="txtSecondNumber"></p>
+<button style="background:red;" onclick="add()">Add them</button>
+<button onclick="sub()">subtract them</button>
+<button onclick="mul()">multiply them</button>
+<button onclick="div()">division them</button>
+
+
+<p>Answer:<input id="txtAnswer"></p>
+</body>
+</html>
+
