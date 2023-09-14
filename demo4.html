@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h2>javaScript html DOM</h2>
+        <p>finding html Element bt class name</p>
+        <p class="intro" >Hello world</p>
+        <p class="intro">this example demonstreterthe <b>getElementByclass</b>mothed</p>
+        <p id="demo"></p>
+        <script>
+            const x=document.getElementsByClassName("intro");
+            document.getElementById("demo").innerHTML='the first paregraph (index 0)with class="intro" is:'+x[0].innerHTML;
+            
+        </script> 
+    </body>
+</html>

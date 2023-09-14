@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h2>javaScript html DOM</h2>
+        <p>finding html Element by Query Selector</p>
+        <p class="intro" >Hello world</p>
+        <p class="intro">this example demonstreterthe <b>querySelectorAll</b>mothed</p>
+        <p id="demo"></p>
+        <script>
+            const x=document.querySelectorAll("p.intro");
+            document.getElementById("demo").innerHTML='the first paregraph (index 0)with class="intro" is:'+x[0].innerHTML;
+            
+        </script> 
+    </body>
+</html>

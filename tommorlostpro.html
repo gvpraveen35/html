@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Signup page</title>
+</head>
+<body> align="center">
+<h1>CREATE YOUR ACCOUNT</h1>
+<table>cellspacing="2" align="center" cellpadding="8" border="0">
+<tr><td>Name</td>
+<td><input type="text" placeholder="enter your name" id="n1"></td></tr>
+<tr><td>Email</td>
+<td><input type="text" placeholder="enter your emai id" id="e1"></td></tr>
+<tr><td>set password</td>
+<td><input type="password" placeholder="set your password" id="p1"></td></tr>
+<tr><td>confirm password</td>
+<td><input type="password" placeholder="confirm your password" id="p2"></td></tr>
+<tr><td>
+<input type="submit" value="creat" onclick="create_account()"/>
+</table>
+<script type="text/javascript">
+function create_account()
+{
+var n=document.getElementById("n1").value;
+var n=document.getElementById("e1").value;
+var n=document.getElementById("p1").value;
+var n=document.getElementById("p2").value;
+var letters=/^[A-Za-z]+$/;
+var email_val=/^([a-zA-Z0-9_\.\-])+\@(({a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+if(n==''||e++''||p==''||cp=='')
+{
+alert("enter each deatails correctiy");
+}
+
+
+
