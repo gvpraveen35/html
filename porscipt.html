@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+<title>CRUD-JS</title>
+<link rel="stylesheet" href="CSS/Style.css">
+<script src="js\script1.js"></script>
+</head>
+<body><CENTER><h2>Student Records</h2></CENTER>
+<table border=2>
+<tr>
+<td> 
+<form onsubmit="event.preventDefault();onFormSubmit();"
+autocomplete="off">
+<h3>Student Form</h3>
+<div>
+<label>FullName</label>
+<label class="validation-error hide" id="userNamevalidationError">this field is required</label>
+<input type="text" name="userName" id="userName" placeholder="enter user name">
+</div> 
+<div>
+<label>Rollno</label>
+<label class="validation-error hide" id="rollNovalidationError">this field is required</label>
+<input type="text" name="rollNo" id="rollNo" placeholder="enter RollNo">
+</div> 
+<div>
+<label>StudentClass</label>
+<label class="validation-error hide" id="stdclassvalidationError">this field is required</label>
+<input type="text" name="stdClass" id="stdClass" placeholder="enter StudentClass">
+</div> 
+<div>
+<label>TotalSubject</label>
+<label class="validation-error hide" id="subvalidationError">this field is required</label>
+<input type="text" name="tsub" id="tsub" placeholder="enter TotalSubject">
+</div> 
+<div>
+<label>age</label>
+<label class="validation-error hide" id="agevalidationError">this field is required</label>
+<input type="text" name="age" id="age" placeholder="enter age">
+</div>
+<div class="form-action-buttons">
+<input type="submit" onClick="onFormSubmit()" value="Submit" >
+</div> 
+</td>
+<td>
+<table class="list" id="stdlist" style="background-color:red;">
+<thead>
+<tr>
+<th>FullName</th>
+<td>RollNo</td>
+<td>Class</td>
+<td>TotalSubject</td>
+<td> age</td>
+<td>Action</td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
