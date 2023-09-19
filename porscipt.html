@@ -1,14 +1,14 @@
 <html lang="en">
 <head>
-<title>CRUD-JS</title>
+<title>CRUD.JS</title>
 <link rel="stylesheet" href="CSS/Style.css">
-<script src="js\script1.js"></script>
+<script src="C:\Users\jeeva\OneDrive\icpart2\project\js\script1.js"></script>
 </head>
 <body><CENTER><h2>Student Records</h2></CENTER>
-<table border=2>
+<table border=0.9>
 <tr>
 <td> 
-<form onsubmit="event.preventDefault();onFormSubmit();"
+<from onsubmit="event.preventDefault();onFormSubmit();"
 autocomplete="off">
 <h3>Student Form</h3>
 <div>
@@ -36,12 +36,15 @@ autocomplete="off">
 <label class="validation-error hide" id="agevalidationError">this field is required</label>
 <input type="text" name="age" id="age" placeholder="enter age">
 </div>
-<div class="form-action-buttons">
-<input type="submit" onClick="onFormSubmit()" value="Submit" >
+<div class="form-action-button">
+<input type="submit" value="Submit">
 </div> 
 </td>
+
+
+
 <td>
-<table class="list" id="stdlist" style="background-color:red;">
+<table class="list" id="stdlist" style="background-color:#C2976D;">
 <thead>
 <tr>
 <th>FullName</th>
@@ -52,11 +55,9 @@ autocomplete="off">
 <td>Action</td>
 </tr>
 </thead>
+</tr>
 <tbody>
 </tbody>
-</table>
-</td>
-</tr>
 </table>
 </body>
 </html>
